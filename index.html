@@ -1,31 +1,32 @@
-<!DOCTYPE html> <!--tipo de documento-->
+<!DOCTYPE html>
+<html lang="es"> <!-- Tipo de documento -->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adiel Subiabre sitio web</title>
-    <link  rel="stylesheet" href="CSS/styles.css">
-
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
-    <body>
-        <header
-            <h1>Este es mi primer sitio web</h1>
-        </header>
+<body>
+    <header>
+        <h1>Este es mi primer sitio web</h1>
+    </header>
 
-        <main>
-            <section>
-                <p>Este es el parrafo de mi sitio web</p>
-                <button onclick="MostrarMensaje{}" ></button>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2024 todos los derechos reservados a Adiel Subiabre</p>
-        </footer>
-    </body>
-    </html>
+    <main>
+        <section>
+            <p>Este es el párrafo de mi sitio web</p>
+            <button onclick="MostrarMensaje()">Mostrar mensaje</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados a Adiel Subiabre</p>
+    </footer>
 
-
-
-
-
-
-</htlm>
+    <!-- Bloque de script con la función MostrarMensaje -->
+    <script>
+        function MostrarMensaje() {
+            alert("¡Este es un mensaje desde JavaScript!");
+        }
+    </script>
+</body>
+</html>

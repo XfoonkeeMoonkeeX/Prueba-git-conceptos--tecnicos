@@ -9,12 +9,13 @@ header {
     background-color: #333;
     color: #ffffff;
     text-align: center;
-    padding: 1em 0; /* Cambié de 16cm a 1em para evitar un espacio muy grande */
+    padding: 1em 0;
 }
 
 main {
     padding: 20px;
     text-align: center;
+    min-height: 80vh; /* Para asegurar que el contenido ocupe un espacio amplio */
 }
 
 footer {
@@ -25,4 +26,6 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    left: 0;
 }
+
